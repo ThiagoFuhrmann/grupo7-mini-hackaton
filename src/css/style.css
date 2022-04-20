@@ -222,3 +222,30 @@ img {
   }
   
 }
+
+/*formatação hero*/
+#hero{
+  height: 100vh;
+}
+#hero .row{
+  justify-content: space-between;
+  align-items: center;
+}
+.button-hero{
+  padding: 15px;
+  background-color: var(--first-color);
+  border-radius: 10px;
+  color: white;
+  border: 2px solid var(--first-color);
+}
+.button-hero:hover{
+  cursor: pointer;
+  border: 2px solid var(--first-color);
+  background-color: transparent;
+  color: var(--first-color);
+}
+.box-button{
+  margin-bottom: -30px;
+  width: 100%;
+  height: 50px;
+}
