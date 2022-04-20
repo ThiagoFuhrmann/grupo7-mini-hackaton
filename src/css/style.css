@@ -9,7 +9,7 @@
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
-  --first-color-second: hsl(var(--hue-color), 69%, 61%);
+  --first-color-second: hsl(var(--hue-color), 35%, 75%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
   --title-color: hsl(var(--hue-color), 8%, 15%);
@@ -151,7 +151,6 @@ img {
 .menu ul{
   display: flex;
   list-style-type: none;
-  margin-right: 5rem;
 }
 
 .menu ul li a{
