@@ -261,6 +261,17 @@ img {
   align-items: center;
 
 }
+
+/*footer*/
+footer{
+  background-color: var(--first-color);
+  color: white;
+  height: 4rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width: 576px) {
   #hero{
     display: flex;
