@@ -230,7 +230,6 @@ img {
 #hero .row{
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: 5rem;
 }
 .button-hero{
   padding: 15px;
@@ -249,4 +248,111 @@ img {
   margin-top: 30px;
   width: 100%;
   height: 50px;
+}
+
+
+
+.centralizar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+@media (max-width: 576px) {
+  #hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .imagem{
+    display: none;
+  }
+  #hero .row{
+    
+    text-align: center;
+  }
+  .centralizar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .texto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  .ordenacao{
+    order: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  .imagem{
+    display: none;
+  }
+  .centralizar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .texto{
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .ordenacao{
+    order: 2;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  #hero{
+  height: auto;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  }
+  .texto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  #hero{
+    height: auto;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    }
+  .texto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  #hero{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .texto-principal{
+    padding-bottom: 40px;
+  }
+  .texto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  #about{
+    padding-top: -10px;
+  }
 }
