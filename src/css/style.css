@@ -259,7 +259,49 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+
+/*Página plataformas*/
+#hero-plataformas{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.texto-plataformas{
+  text-align: center;
+}
+.texto-plataformas p{
+  text-align: justify;
+  margin-top: 10px;
+}
+.button{
+  padding: 5px;
+  background-color: var(--first-color);
+  border-radius: 10px;
+  color: white;
+  border: 2px solid var(--first-color);
+}
+.button:hover{
+  cursor: pointer;
+  border: 2px solid var(--first-color);
+  background-color: transparent;
+  color: var(--first-color);
+}
+.box-button-plataformas{
+  text-align: left;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+#plataformas .row{
+  margin-top: 10px;
+}
+
+.imagem-centralizar{
+  align-self: flex-end;
 }
 
 /*footer*/
@@ -298,6 +340,10 @@ footer{
   .ordenacao{
     order: 2;
   }
+  #title{
+    font-size: 4rem;
+  }
+  
 }
 
 @media (max-width: 768px) {
@@ -323,6 +369,9 @@ footer{
   .ordenacao{
     order: 2;
   }
+  #title{
+    font-size: 5rem;
+  }
 
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -336,6 +385,20 @@ footer{
     margin-bottom: 10px;
     text-align: justify;
   }
+
+  /*Página plataformas*/
+  .line-hero{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  #hero-plataformas{
+    height: auto;
+  }
+  #title{
+    font-size: 3rem;
+  }
+
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   #hero{
@@ -348,6 +411,17 @@ footer{
     margin-bottom: 10px;
     text-align: justify;
   }
+
+  /*Página plataformas*/
+  .line-hero{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  #title{
+    font-size: 4.5rem;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -356,6 +430,9 @@ footer{
     justify-content: center;
     align-items: center;
     margin-bottom: 0px;
+  }
+  #hero h1{
+    font-size: 2.5rem;
   }
   .texto-principal{
     padding-bottom: 40px;
@@ -367,5 +444,18 @@ footer{
   }
   #about{
     padding-top: -10px;
+  }
+
+  /*Página plataformas*/
+  .line-hero{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  #hero-plataformas h1{
+    font-size: 5rem;
+  }
+  #title{
+    font-size: 4.5rem;
   }
 }
