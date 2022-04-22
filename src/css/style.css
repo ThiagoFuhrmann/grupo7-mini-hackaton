@@ -321,9 +321,6 @@ footer{
     align-items: center;
     height: 100vh;
   }
-  .imagem{
-    display: none;
-  }
   #hero .row{
     
     text-align: center;
@@ -353,9 +350,6 @@ footer{
     align-items: center;
     height: 100vh;
     text-align: center;
-  }
-  .imagem{
-    display: none;
   }
   .centralizar{
     margin-top: 10px;
