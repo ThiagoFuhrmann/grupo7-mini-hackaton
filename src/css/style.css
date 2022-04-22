@@ -304,6 +304,13 @@ img {
   align-self: flex-end;
 }
 
+#hero-cursos{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /*footer*/
 footer{
   background-color: var(--first-color);
@@ -340,7 +347,15 @@ footer{
   #title{
     font-size: 4rem;
   }
-  
+  #hero-cursos{
+    text-align: center;
+  }
+  #hero-cursos h1{
+    font-size: 3rem;
+  }
+  .img{
+    max-width: 80%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -366,7 +381,15 @@ footer{
   #title{
     font-size: 5rem;
   }
-
+  #hero-cursos{
+    text-align: center;
+  }
+  #hero-cursos h1{
+    font-size: 4rem;
+  }
+  .img{
+    max-width: 90%;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   #hero{
@@ -392,7 +415,19 @@ footer{
   #title{
     font-size: 3rem;
   }
-
+  #hero-cursos{
+    text-align: left;
+    flex-direction: row;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #hero-cursos .row{
+    align-items: center;
+  }
+  #hero-cursos h1{
+    font-size: 4rem;
+  }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   #hero{
@@ -415,6 +450,17 @@ footer{
   
   #title{
     font-size: 4.5rem;
+  }
+  #hero-cursos{
+    text-align: left;
+    flex-direction: row;
+    height: 100vh;
+  }
+  #hero-cursos .row{
+    align-items: center;
+  }
+  #hero-cursos h1{
+    font-size: 4rem;
   }
 }
 
@@ -451,5 +497,16 @@ footer{
   }
   #title{
     font-size: 4.5rem;
+  }
+  #hero-cursos{
+    text-align: left;
+    flex-direction: row;
+    height: 100vh;
+  }
+  #hero-cursos .row{
+    align-items: center;
+  }
+  #hero-cursos h1{
+    font-size: 4rem;
   }
 }
