@@ -311,6 +311,24 @@ img {
   justify-content: center;
   align-items: center;
 }
+#cursos{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.card{
+  text-align: center;
+  height: auto;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#cursos .row{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 /*footer*/
 footer{
   background-color: var(--first-color);
@@ -355,6 +373,10 @@ footer{
   }
   .img{
     max-width: 80%;
+  }
+  .card{
+    max-width: 80%;
+    margin: 0 auto;
   }
 }
 
