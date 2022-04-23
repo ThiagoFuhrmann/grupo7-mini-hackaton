@@ -1,4 +1,4 @@
-fetch('http://api-google-search.vercel.app/').then(function (response) { //servidor backend criado usando serpapi google jobs feito o deploy no site da vercel.
+fetch('https://api-google-search.vercel.app/').then(function (response) { //servidor backend criado usando serpapi google jobs feito o deploy no site da vercel.
     return response.json();
 }).then(function (data) {
     let titulos = data['jobs_results'];
