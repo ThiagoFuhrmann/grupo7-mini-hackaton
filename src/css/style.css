@@ -304,6 +304,82 @@ img {
   align-self: flex-end;
 }
 
+/*Página vagas*/
+.vagas{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.vagas-box{
+  margin: 15px;
+  width: 25%;
+  border: 5px solid var(--first-color);
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+.vagas-box:hover{
+  border: 5px solid var(--first-color-second);
+}
+
+.box-form{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+/*Sugestões*/
+#sugestoes .row{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+input{
+  width: 100%;
+  height: 30px;
+  border: 2px solid var(--first-color);
+  border-radius: 10px;
+  font-family: var(--body-font);
+}
+textarea{
+  width: 100%;
+  height: 70px;
+  border: 2px solid var(--first-color);
+  border-radius: 10px;
+  font-family: var(--body-font);
+}
+input:focus{
+  outline: none !important;
+  border-color: var(--first-color-lighter);
+}
+textarea:focus{
+  outline: none !important;
+  border-color: var(--first-color-lighter);
+}
+
+.cor-erro{
+  border: 2px solid red;
+}
+#obrigatorio{
+  text-align: left;
+  font-size: 14px;
+}
+
+#resposta{
+  text-align: left;
+  font-size: 14px;
+}
+
+#button-form{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
 /*footer*/
 footer{
   background-color: var(--first-color);
@@ -340,6 +416,10 @@ footer{
   #title{
     font-size: 4rem;
   }
+
+  .vagas-box{
+    width:100%;
+  }
   
 }
 
@@ -367,6 +447,10 @@ footer{
     font-size: 5rem;
   }
 
+  .vagas-box{
+    width:100%;
+  }
+
 }
 @media (min-width: 768px) and (max-width: 992px) {
   #hero{
@@ -392,6 +476,9 @@ footer{
   #title{
     font-size: 3rem;
   }
+  .vagas-box{
+    width:100%;
+  }
 
 }
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -415,6 +502,10 @@ footer{
   
   #title{
     font-size: 4.5rem;
+  }
+
+  .vagas-box{
+    width:45%;
   }
 }
 
@@ -454,34 +545,3 @@ footer{
   }
 }
 
-
-
-/*Página vagas*/
-.vagas{
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
-}
-.vagas-box{
-  margin: 15px;
-  width: 25%;
-  border: 5px solid var(--first-color);
-  padding: 10px;
-  padding-left: 20px;
-  border-radius: 10px;
-}
-.vagas-box:hover{
-  border: 5px solid var(--first-color-second);
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .vagas-box{
-    width:45%;
-  }
-}
-
-@media (max-width: 992px) {
-  .vagas-box{
-    width:100%;
-  }
-}
