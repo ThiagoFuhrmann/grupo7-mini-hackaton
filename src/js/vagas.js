@@ -17,7 +17,7 @@ fetch('https://api-google-search.vercel.app/').then(function (response) { //serv
 
 function populateContent(obj) {
     const div = document.querySelector('.vagas');
-    const myH1 = document.createElement('h1');
+    const myH2 = document.createElement('h2');
     const myPara = document.createElement('p');
     const divVaga = document.createElement('div');
     const myPara1 = document.createElement('p');
