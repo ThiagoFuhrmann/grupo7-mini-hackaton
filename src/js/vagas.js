@@ -26,7 +26,7 @@ function populateContent(obj) {
     const descriptionReduzido = description.substr(0, 200);
     divVaga.classList.add("vagas-box")
 
-    myH1.textContent = obj['title'];
+    myH2.textContent = obj['title'];
     myPara.textContent = `Empresa: ${obj['company_name']}`;
     myPara1.textContent = `${obj['via']}.   Lugar: ${obj['location']}`;
     myPara2.textContent = `Descrição: ${descriptionReduzido} ...`;
