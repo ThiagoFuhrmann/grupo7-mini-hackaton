@@ -33,7 +33,7 @@ function populateContent(obj) {
     
     
     
-    divVaga.appendChild(myH1);
+    divVaga.appendChild(myH2);
     divVaga.appendChild(myPara);
     divVaga.appendChild(myPara1);
     divVaga.appendChild(myPara2);
