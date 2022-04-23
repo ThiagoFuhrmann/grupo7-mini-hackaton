@@ -304,6 +304,30 @@ img {
   align-self: flex-end;
 }
 
+#hero-cursos{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cursos{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.card{
+  text-align: center;
+  height: auto;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#cursos .row{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
 /*Página vagas*/
 #vagas .row{
   height: 100vh;
@@ -421,6 +445,19 @@ footer{
   #title{
     font-size: 4rem;
   }
+  #hero-cursos{
+    text-align: center;
+  }
+  #hero-cursos h1{
+    font-size: 3rem;
+  }
+  .img{
+    max-width: 80%;
+  }
+  .card{
+    max-width: 80%;
+    margin: 0 auto;
+  }
 
   .vagas-box{
     width:100%;
@@ -450,6 +487,15 @@ footer{
   }
   #title{
     font-size: 5rem;
+  }
+  #hero-cursos{
+    text-align: center;
+  }
+  #hero-cursos h1{
+    font-size: 4rem;
+  }
+  .img{
+    max-width: 90%;
   }
 
   .vagas-box{
@@ -481,6 +527,19 @@ footer{
   #title{
     font-size: 3rem;
   }
+  #hero-cursos{
+    text-align: left;
+    flex-direction: row;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #hero-cursos .row{
+    align-items: center;
+  }
+  #hero-cursos h1{
+    font-size: 4rem;
+  }
   .vagas-box{
     width:100%;
   }
@@ -507,6 +566,17 @@ footer{
   
   #title{
     font-size: 4.5rem;
+  }
+  #hero-cursos{
+    text-align: left;
+    flex-direction: row;
+    height: 100vh;
+  }
+  #hero-cursos .row{
+    align-items: center;
+  }
+  #hero-cursos h1{
+    font-size: 4rem;
   }
 
   .vagas-box{
@@ -547,6 +617,17 @@ footer{
   }
   #title{
     font-size: 4.5rem;
+  }
+  #hero-cursos{
+    text-align: left;
+    flex-direction: row;
+    height: 100vh;
+  }
+  #hero-cursos .row{
+    align-items: center;
+  }
+  #hero-cursos h1{
+    font-size: 4rem;
   }
 }
 
