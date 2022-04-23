@@ -418,7 +418,7 @@ footer{
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1400px) {
+@media (min-width: 1200px) {
   #hero{
     display: flex;
     justify-content: center;
@@ -451,5 +451,37 @@ footer{
   }
   #title{
     font-size: 4.5rem;
+  }
+}
+
+
+
+/*Página vagas*/
+.vagas{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.vagas-box{
+  margin: 15px;
+  width: 25%;
+  border: 5px solid var(--first-color);
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+.vagas-box:hover{
+  border: 5px solid var(--first-color-second);
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .vagas-box{
+    width:45%;
+  }
+}
+
+@media (max-width: 992px) {
+  .vagas-box{
+    width:100%;
   }
 }

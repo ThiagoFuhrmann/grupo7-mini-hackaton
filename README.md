@@ -7,7 +7,7 @@ Este repositório é destinado ao projeto/desafio de mini hackathon organizado p
 - Daniel Viana
 - Dgley Ramos
 - Thiago Barbosa
-- Thiago Fuhmann
+- Thiago Fuhrmann
 - Thiago Augusto
 
 ## Tema
@@ -27,12 +27,12 @@ Projeto front-end utilizando HTML, CSS e JAVASCRIPT
 - [ ] Página de Cursos
 - [ ] Página de Livros
 - [x] Página de Plataformas
-- [ ] Página de Vagas
+- [x] Página de Vagas
 
 ## Autores
 
 - Daniel Viana [LinkedIn](https://www.linkedin.com/in/dgleyramos/)
 - Dgley Ramos [LinkedIn](https://www.linkedin.com/in/daniel-viana-943420184)
 - Thiago Barbosa [LinkedIn](https://www.linkedin.com/in/engtgmarcelo/)
-- Thiago Fuhmann
+- Thiago Fuhrmann [LinkedIn](https://www.linkedin.com/in/thiago-fuhrmann-1462b3238/)
 - Thiago Augusto [LinkedIn](https://www.linkedin.com/in/thiago-augusto-092353219/)
