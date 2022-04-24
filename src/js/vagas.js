@@ -22,7 +22,12 @@ function populateContent(obj) {
     const divVaga = document.createElement('div');
     const myPara1 = document.createElement('p');
     const myPara2 = document.createElement('p');
-    const description = obj['description']
+    const myA = document.createElement('a');
+    const url = `https://google.com/search?q=${obj['title']}+"${obj['company_name']}"+"jobs"`
+    myA.href = url;
+    myA.target= "_blank"
+    myA.rel = "noopener noreferrer"
+    const description = obj['description'];
     const descriptionReduzido = description.substr(0, 200);
     divVaga.classList.add("vagas-box")
 
@@ -33,11 +38,11 @@ function populateContent(obj) {
     
     
     
-    divVaga.appendChild(myH2);
+    myA.appendChild(myH2)
+    divVaga.appendChild(myA);
     divVaga.appendChild(myPara);
     divVaga.appendChild(myPara1);
     divVaga.appendChild(myPara2);
-    
 
     div.appendChild(divVaga);
 }

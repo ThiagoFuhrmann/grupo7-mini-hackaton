@@ -329,10 +329,15 @@ img {
   margin-top: 10px;
 }
 /*Página vagas*/
+#vagas .row{
+  height: 100vh;
+}
 .vagas{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 30px;
+  
 }
 .vagas-box{
   margin: 15px;
