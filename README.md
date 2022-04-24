@@ -30,7 +30,7 @@ Projeto front-end utilizando HTML, CSS e JAVASCRIPT
 
 ### Preview
 
-![Home](src\img\desktop.png)
+![Home](./src\img\desktop.png)
 
 ## Autores
 
