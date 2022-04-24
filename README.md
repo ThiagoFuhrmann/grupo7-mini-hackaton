@@ -22,12 +22,15 @@ Projeto front-end utilizando HTML, CSS e JAVASCRIPT
 - [x] Painel Principal
 - [x] Quem Somos
 - [x] Solução
-- [ ] Formulário de Sugestões
+- [x] Formulário de Sugestões
 - [x] Rodapé
-- [ ] Página de Cursos
-- [ ] Página de Livros
+- [x] Página de Cursos
 - [x] Página de Plataformas
 - [x] Página de Vagas
+
+### Preview
+
+![Home](src\img\desktop.png)
 
 ## Autores
 
